@@ -1,0 +1,50 @@
+du -b ubuntu-18.04.3-desktop-amd64.iso
+2082816000	ubuntu-18.04.3-desktop-amd64.iso
+
+sha512sum ubuntu-18.04.3-desktop-amd64.iso
+87dc8bf29886b8a8c7b9d8a91603896fa1153e2e10f145239a4c53dc1cd4554ec07e0202ea39d2497ac06b496016ef61990fcd3e2ee7cfc5e3546a094db26cda
+
+real	0m10.071s
+user	0m8.984s
+sys	0m0.891s
+
+python file_sha512.py ubuntu-18.04.3-desktop-amd64.iso
+87dc8bf29886b8a8c7b9d8a91603896fa1153e2e10f145239a4c53dc1cd4554ec07e0202ea39d2497ac06b496016ef61990fcd3e2ee7cfc5e3546a094db26cda
+
+real	0m9.893s
+user	0m4.234s
+sys	0m1.219s
+
+./file_sha512.out ubuntu-18.04.3-desktop-amd64.iso
+87dc8bf29886b8a8c7b9d8a91603896fa1153e2e10f145239a4c53dc1cd4554ec07e0202ea39d2497ac06b496016ef61990fcd3e2ee7cfc5e3546a094db26cda
+
+real	0m8.157s
+user	0m7.484s
+sys	0m0.594s
+
+
+du -b VirtualBox-6.1.4-136177-Win.exe
+113006600	VirtualBox-6.1.4-136177-Win.exe
+
+sha512sum VirtualBox-6.1.4-136177-Win.exe
+f2909f74091916ad19c915b34ec2ab7f40b307a83f61afbbe419733f794653a0ace25c6dc317d99ed2e9993ab9d3c4b3f1ac20f36b11654be78ebf561cc51380
+
+real	0m0.582s
+user	0m0.469s
+sys	0m0.094s
+
+python file_sha512.py VirtualBox-6.1.4-136177-Win.exe
+f2909f74091916ad19c915b34ec2ab7f40b307a83f61afbbe419733f794653a0ace25c6dc317d99ed2e9993ab9d3c4b3f1ac20f36b11654be78ebf561cc51380
+
+real	0m0.910s
+user	0m0.266s
+sys	0m0.250s
+
+./file_sha512.out VirtualBox-6.1.4-136177-Win.exe
+f2909f74091916ad19c915b34ec2ab7f40b307a83f61afbbe419733f794653a0ace25c6dc317d99ed2e9993ab9d3c4b3f1ac20f36b11654be78ebf561cc51380
+
+real	0m0.430s
+user	0m0.391s
+sys	0m0.031s
+
+
