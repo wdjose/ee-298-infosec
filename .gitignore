@@ -1,0 +1,4 @@
+*.iso
+*.exe
+*.out
+.vscode
