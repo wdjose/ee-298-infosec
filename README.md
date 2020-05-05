@@ -1,6 +1,6 @@
-# Machine Problem 1 - Hashing
+# SHA-512 Implementation
 
-This repository contains code in C++ which performs SHA-512 on any file. 
+This repository contains code in C++ which performs SHA-512 on any file. This source code is written from scratch, based on the pseudocode presented at https://en.wikipedia.org/wiki/SHA-2. Please see https://github.com/wdjose/sha-512/blob/master/profile_result.txt for runtime comparison with Python's hashlib library and Ubuntu's sha512sum utility. 
 
 To compile: 
 
@@ -25,12 +25,3 @@ Usage:
 Example:
 
 <code>bash profile_sha512.sh ubuntu-18.04.3-desktop-amd64.iso VirtualBox-6.1.4-136177-Win.exe &gt; profile_result.txt</code>
-
----
-
-Machine Problem 1 for EE 298, University of the Philippines Diliman
-
-Authors: 
-- Williard Joshua Jose
-- Rangel Daroya
-- Jonric Mirando
